@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="portButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:width">300dp</item>
+        <item name="android:height">60dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:onClick">sendToast</item>
+    </style>
+    
+    <style name="udaButton" parent="portButton">
+        <item name="android:background">@android:color/holo_orange_light</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="myOwnButton" parent="portButton">
+        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
